@@ -1,0 +1,15 @@
+# IDE folder
+.idea/
+.vscode/
+
+# Build object
+*.o
+*.a
+
+# Test object
+unit_tests
+*.gcno
+*.gcda
+
+# Test file
+main.c
