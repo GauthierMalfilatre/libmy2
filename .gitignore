@@ -7,6 +7,7 @@
 *.a
 
 # Test object
+create_test.sh
 unit_tests
 *.gcno
 *.gcda

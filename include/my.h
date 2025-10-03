@@ -19,4 +19,7 @@ size_t my_putstr(char const *str);
 // Len functions
 size_t my_strlen(char const *str);
 
+// Other functions
+void my_swap(int *a, int *b);
+
 #endif /* LIB_MY_H */
