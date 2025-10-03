@@ -41,3 +41,11 @@ Test(my_strcmp, same_but_one_letter_different)
 
     cr_assert_eq(my_strcmp(s1, s2), strcmp(s1, s2));
 }
+
+Test(my_strcmp, one_str_is_null)
+{
+    char *s1 = "Hella";
+    char *s2 = NULL;
+
+    cr_assert_null(my_strcmp(s1, s2));
+}

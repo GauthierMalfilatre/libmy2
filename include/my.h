@@ -29,8 +29,12 @@ char *my_stpncpy(char *dest, char const *src, int n);
 char *my_strncpy(char *dest, char const *src, int n);
 
 // Duplication
-char *my_strdup(char *str);
-char *my_strndup(char *str, int n);
+char *my_strdup(char const *str);
+char *my_strndup(char const *str, int n);
+
+// Char ** functions
+char **my_str_to_word_array(char const *str);
+char **my_strsplit(char const *str);
 
 // Len functions
 size_t my_strlen(char const *str);

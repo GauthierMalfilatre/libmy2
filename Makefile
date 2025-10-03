@@ -8,15 +8,22 @@ SRC =	src/my_putchar.c \
 		src/my_putstr.c \
 		src/my_strlen.c \
 		src/my_putnbr.c \
+		\
 		src/my_swap.c \
+		\
 		src/my_strcmp.c \
 		src/my_strncmp.c \
+		\
 		src/my_strcpy.c \
 		src/my_stpcpy.c \
 		src/my_strncpy.c \
 		src/my_stpncpy.c \
+		\
 		src/my_strdup.c \
 		src/my_strndup.c \
+		\
+		src/my_str_to_word_array.c \
+		src/my_strsplit.c \
 
 OBJ = $(SRC:.c=.o)
 
@@ -34,7 +41,7 @@ $(TARGET): $(OBJ)
 	ar rc $(TARGET) $(OBJ)
 
 unit_tests: $(OBJ)
-	$(CCT) -o $(TESTNAME) $(OBJ) tests/*.c --coverage $(TESTFLAGS) $(CFLAGS)
+	$(CCT) -o $(TESTNAME) src/*.c tests/*.c --coverage $(TESTFLAGS) $(CFLAGS)
 
 test: all
 	$(CCT) $(OBJ) main.c -L./ -lmy

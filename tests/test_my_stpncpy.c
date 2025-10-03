@@ -23,7 +23,7 @@ Test(my_stpncpy, invalid_strings)
     char *s1 = NULL;
     char s2[12];
 
-    cr_assert_null(my_strcpy(s2, s1));
+    cr_assert_null(my_stpncpy(s2, s1, 8));
 }
 
 Test(my_stpncpy, string_smaller)

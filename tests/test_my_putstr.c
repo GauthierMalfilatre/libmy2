@@ -32,3 +32,11 @@ Test(my_putstr, put_valid_str, .init = redirect_all_stdout)
     fflush(stdout);
     cr_assert_stdout_eq_str(str);
 }
+
+Test(my_putstr, null_str)
+{
+    char *str = NULL;
+
+    int size_of_str = my_putstr(str);
+    cr_assert_eq(size_of_str, 0);
+}

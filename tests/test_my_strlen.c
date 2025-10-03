@@ -15,3 +15,11 @@ Test(my_strlen, return_value)
 
     cr_assert_eq(size_of_str, strlen(str));
 }
+
+Test(my_strlen, str_is_null)
+{
+    char *str = NULL;
+    int size_of_str = my_strlen(str);
+
+    cr_assert_eq(size_of_str, 0);
+}
