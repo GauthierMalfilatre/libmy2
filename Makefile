@@ -11,11 +11,13 @@ SRC =	src/my_putchar.c \
 		src/my_swap.c \
 		src/my_strcmp.c \
 		src/my_strncmp.c \
+		src/my_strcpy.c \
+		src/my_stpcpy.c \
 
 OBJ = $(SRC:.c=.o)
 
 CCT = gcc
-CFLAGS += -Wall -Wextra -Werror -Iinclude/
+CFLAGS += -Wall -Wextra -Werror -I./include/
 
 TESTFLAGS = -lcriterion
 

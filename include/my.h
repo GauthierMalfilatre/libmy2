@@ -20,6 +20,9 @@ size_t my_putstr(char const *str);
 int my_strcmp(char const *s1, char const *s2);
 int my_strncmp(char const *s1, char const *s2, int n);
 
+char *my_stpcpy(char *dest, char const *src);
+char *my_strcpy(char *dest, char const *src);
+
 // Len functions
 size_t my_strlen(char const *str);
 
