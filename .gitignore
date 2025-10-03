@@ -14,3 +14,6 @@ unit_tests
 
 # Test file
 main.c
+
+# Coding style report
+coding-style-reports.log
