@@ -1,8 +1,8 @@
 /*
 ** EPITECH PROJECT, 2025
-** MY_STRCPY
+** MY_STRNCPY
 ** File description:
-** Copy the source string into the dest.
+** Copy n bytes the source string into the dest.
 */
 #include "my.h"
 

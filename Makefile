@@ -15,6 +15,8 @@ SRC =	src/my_putchar.c \
 		src/my_stpcpy.c \
 		src/my_strncpy.c \
 		src/my_stpncpy.c \
+		src/my_strdup.c \
+		src/my_strndup.c \
 
 OBJ = $(SRC:.c=.o)
 

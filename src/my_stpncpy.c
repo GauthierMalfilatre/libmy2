@@ -2,7 +2,8 @@
 ** EPITECH PROJECT, 2025
 ** MY_STPNCPY
 ** File description:
-** Copy the source string into the dest.
+** Copy n bytes of the source string into the dest and return his
+** null byte.
 */
 #include "my.h"
 

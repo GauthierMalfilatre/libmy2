@@ -1,8 +1,8 @@
 /*
 ** EPITECH PROJECT, 2025
-** TEST_MY_PUTCHAR
+** TEST_MY_STRNPCY
 ** File description:
-** Test the function my_putchar 
+** Test the function my_strndpy 
 */
 #include "my.h"
 #include <criterion/criterion.h>
