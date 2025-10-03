@@ -9,6 +9,7 @@ SRC =	src/my_putchar.c \
 		src/my_strlen.c \
 		src/my_putnbr.c \
 		src/my_swap.c \
+		src/my_strcmp.c \
 
 OBJ = $(SRC:.c=.o)
 
