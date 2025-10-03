@@ -22,6 +22,8 @@ int my_strncmp(char const *s1, char const *s2, int n);
 
 char *my_stpcpy(char *dest, char const *src);
 char *my_strcpy(char *dest, char const *src);
+char *my_stpncpy(char *dest, char const *src, int n);
+char *my_strncpy(char *dest, char const *src, int n);
 
 // Len functions
 size_t my_strlen(char const *str);
